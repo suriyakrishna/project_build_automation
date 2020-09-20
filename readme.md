@@ -33,8 +33,8 @@ To initialize the sbt scala project from command line with ease.
 **Script Invocation**
 ```bash
 $ git clone https://github.com/suriyakrishna/project_build_automation.git /home/hadoop/project_build_automation
-$ cd /home/hadoop/project_build_automation
-$ bash generate_sbt_project.sh -s 2.11.11 -o com.kishan -a pocsbt -v 0.1.1 -b 1.3.4 -p sparkScalaTest
+$ cd /home/hadoop/project_build_automation/scripts
+$ bash generate_sbt_project.sh -s 2.11.11 -o com.kishan -a pocsbt -v 0.1.1 -b 1.3.4 -p /home/hadoop/sparkScalaTest
 ```
 
 
