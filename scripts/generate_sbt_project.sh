@@ -56,4 +56,4 @@ create_sbt_folder_structure
 create_git_ignore_file
 create_build_sbt_file $ARTIFACT_NAME $ARTIFACT_VERSION $SCALA_VERSION $ORGANIZATION
 create_sbt_build_properites_file $SBT_VERSION
-log_info "SBT Project intialize successfully in ${PROJECT_DIR}"
+log_info "SBT Project initialized successfully in ${PROJECT_DIR}"

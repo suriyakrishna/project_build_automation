@@ -26,9 +26,9 @@ check_status(){
 }
 
 intialize_git(){
-    log_info "Intializing git Repoistory in `pwd`"
+    log_info "Initializing git Repository in `pwd`"
     git init .
-    check_status $? "Initialized Git Repoistory Successfully" "Failed to Intialized Git Repository"
+    check_status $? "Initialized Git Repository Successfully" "Failed to Initialize Git Repository"
 }
 
 create_sbt_folder_structure(){
